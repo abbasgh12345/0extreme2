@@ -38,7 +38,7 @@ local function res_user_callback(extra, success, result) -- /info <username> fun
 	local hash = 'rank:'..extra.chat2..':variables'
 	local value = redis:hget(hash, result.id)
     if not value then
-	 if result.id == tonumber(Arian) then
+	 if result.id == 179983320 then
 	   text = text..'› مقام : مدیر کل ربات (Sudo) \n\n'
 	  elseif is_admin2(result.id) then
 	   text = text..'› مقام : ادمین ربات (Admin) \n\n'
@@ -77,7 +77,7 @@ local function action_by_id(extra, success, result)  -- /info <ID> function
   local hash = 'rank:'..extra.chat2..':variables'
   local value = redis:hget(hash, result.id)
   if not value then
-	 if result.id == tonumber(Arian) then
+	 if result.id == 179983320 then
 	   text = text..'› مقام : مدیر کل ربات (Sudo) \n\n'
 	  elseif is_admin2(result.id) then
 	   text = text..'› مقام : ادمین ربات (Admin) \n\n'
@@ -115,7 +115,7 @@ local function action_by_reply(extra, success, result)-- (reply) /info  function
 	local hash = 'rank:'..result.to.id..':variables'
 		local value = redis:hget(hash, result.from.id)
 		 if not value then
-		    if result.from.id == tonumber(Arian) then
+		    if result.from.id == 179983320 then
 		       text = text..'› مقام : مدیر کل ربات (Sudo) \n\n'
 		     elseif is_admin2(result.from.id) then
 		       text = text..'› مقام : ادمین ربات (Admin) \n\n'
@@ -183,7 +183,7 @@ local function run(msg, matches)
 	if hash then
 	  local value = redis:hget(hash, msg.from.id)
 	  if not value then
-		if msg.from.id == tonumber(Arian) then
+		if msg.from.id == 179983320 then
 		 text = text..'› مقام : مدیر کل ربات (Sudo) \n\n'
 		elseif is_sudo(msg) then
 		 text = text..'› مقام : ادمین ربات (Admin) \n\n'
