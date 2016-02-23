@@ -1,120 +1,100 @@
+
 local function run(msg)
 if msg.text == "hi" then
-	return "Hi Baby :)"
+	return "Hello bb"
 end
 if msg.text == "Hi" then
-	return "Hello Honey :)"
+	return "Hello honey"
 end
 if msg.text == "Hello" then
-	return "Hi :)"
+	return "Hi bb"
 end
 if msg.text == "hello" then
-	return "Hi Honey"
+	return "Hi honey"
 end
 if msg.text == "Salam" then
-	return "Salam Azizam"
+	return "Salam aleykom"
 end
 if msg.text == "salam" then
-	return "Salam"
+	return "va aleykol asalam"
 end
-if msg.text == "amir" then
-	return "Ha?"
+if msg.text == "zac" then
+	return "Barash bezan sak"
 end
-if msg.text == "Amir" then
-	return "Koft Chikaresh Dari?"
+if msg.text == "Zac" then
+	return "Barash bezan sak"
 end
-if msg.text == "amin" then
-	return "Rafte Lala :/"
+if msg.text == "ZAC" then
+	return "Barash bezan sak"
 end
-if msg.text == "Amin" then
-	return "Khabe :|"
+if msg.text == "Umbrella" then
+	return "Yes?"
 end
-if msg.text == "mamshotak" then
-	return "Nagaiiidam!"
+if msg.text == "umbrella" then
+	return "What?"
 end
-if msg.text == "Mamshotak" then
-	return "چچچ نگاییدم"
+if msg.text == "bot" then
+	return "jan?"
+end
+if msg.text == "Bot" then
+	return "janm?"
 end
 if msg.text == "?" then
-	return "Chiye?"
-end
-if msg.text == "؟" then
-	return "Kiiiiiir :|"
-end
-if msg.text == "BK" then
-	return "BK Ke BK 😐"
-end
-if msg.text == "Kir" then
-	return "Dos Dari?"
-end
-if msg.text == "kir" then
-	return "Dos Dari?"
+	return "Hum??"
 end
 if msg.text == "Bye" then
-	return "Bye Dayus"
+	return "Babay"
 end
 if msg.text == "bye" then
-	return "Bye"
+	return "Bye Bye"
+end
+if msg.text == "abbas" then
+	return "با صاحبم چی کارداری؟؟"
+end
+if msg.text == "abas" then
+	return "با صاحبم چی کارداری؟؟"
+end
+if msg.text == "slm" then
+	return "سلام"
+end
+if msg.text == "sudo" then
+	return "@unkownhacker"
 end
 if msg.text == "سلام" then
 	return "سلام"
 end
-if msg.text == "سلام زامارین" then
-	return "سلام عزیزم :)"
+if msg.text == "khobi?" then
+	return "مگه دکتری"
 end
-if msg.text == "زامارین سلام" then
-	return "سلام عزیزم :)"
+if msg.text == "extreme" then
+	return "bale"
 end
-if msg.text == "ممشوتک" then
-	return "چچچ نگاییدم"
+if msg.text == "عباس" then
+	return "با صاحبم چی کار داری؟؟"
 end
-if msg.text == "امین" then
-	return "رفته استخر :|"
+if msg.text == "i love you" then
+	return "me too💋💋💋"
 end
-if msg.text == "زامارین" then
-	return "ها چیه؟"
+if msg.text == "dadash" then
+	return "کدوم داداش؟؟"
 end
-if msg.text == "ایلیا" then
-	return "با جیگرم چیکار داری؟"
+if msg.text == "badboy" then
+	return "جانم ابجی"
 end
-if msg.text == "سپهر" then
-	return "رفته توالت وایسا بیاد"
+if msg.text == "fafa" then
+	return "دیگه تو پی وی بات فوش ندی ها"
 end
-if msg.text == "مبینا" then
-	return "لال شو اسمشو نیار :|"
+if msg.text == "فافا" then
+	return "دیگه تو پی وی بات فوش ندی ها"
 end
-if msg.text == "امیر" then
-	return "با باباییم چیکار داری؟ 😐"
+if msg.text == "داشاب" then
+	return "i love you(badgirl)"
 end
-if msg.text == "امیر دارک" then
-	return "با باباییم چیکار داری؟ 😐"
+if msg.text == "پوتاتو" then
+	return "(badgirl)لبخند فراموش نشه"
 end
-if msg.text == "کله شیری" then
-	return "باباته کله کیییری 😐"
-end
-if msg.text == "زن امیر دارک اسمش چیه؟" then
-	return "زن امیر دارک میشه مامان من کونی 😕"
-end
-if msg.text == "بات" then
-	return "چیه چس ممبر 🤔"
-end
-if msg.text == "ربات" then
-	return "چیه چس ممبر 🤔"
-end
-if msg.text == "سید" then
-	return "چچچ سیک"
-end
-if msg.text == "تله سید" then
-	return "چچچ سیک"
-end
-if msg.text == "خوبی" then
-	return "شکر خدا شما خوبی"
-end
-if msg.text == "خوبی؟" then
-	return "مرسی عزیزم تو خوبی؟"
-end
-if msg.text == "زامارین خوبی؟" then
-	return "مرسی 😁"
+if msg.text == "کسی هست؟" then
+	return "اره بات"
 end
 end
 
@@ -122,37 +102,30 @@ return {
 	description = "Chat With Robot Server", 
 	usage = "chat with robot",
 	patterns = {
-    "^[Hh]i$",
-	"^[Hh]ello$",
-    "^[Ss]alam$",
-    "^[Aa]mir$",
-    "^[Aa]min$",
-    "^[Mm]amshotak$",
-    "^?$",
-    "^؟$",
-    "^BK$",
-    "^[Kk]ir$",
-	"^[Bb]ye$",
-	"^سلام",
-	"^سلام زامارین",
-  "^زامارین سلام",
-	"^ممشوتک",	
-	"^امین",	
-	"^زامارین",
-	"^ایلیا",
-	"^سپهر",
-	"^مبینا",
-	"^امیر",
-	"^امیر دارک",
-	"^کله شیری",
-	"^زن امیر دارک اسمش چیه؟",	
-	"^بات",
-	"^ربات",
-	"^سید",
-	"^تله سید",
-	"^خوبی",
-	"^خوبی؟",
-	"^زامارین خوبی؟",
+		"^[Hh]i$",
+		"^[Hh]ello$",
+		--"^[Zz]ac$",
+		"^ZAC$",
+		"^[Bb]ot$",
+		--"^[Uu]mbrella$",
+		"^[Bb]ye$",
+		--"^?$",
+		"^[Ss]alam$",
+		"^[Ff]afa$",
+		"^[Ss]lm$",
+		"^[Bb]adboy$",
+		"^[Dd]adash$",
+		"^[Ii] love you$",
+		"^[Ee]xtreme$",
+		"^[Kk]hobi?$",
+		"^[Ss]udo$",
+		"^[Aa]bbas$",
+		"^[Aa]bas$",
+		"^[Ss]alam$",
+		"^فافا$",
+		"^داشاب$",
+		"^پوتاتو$",
+		"^کسی هست؟$",
 		
 		}, 
 	run = run,
