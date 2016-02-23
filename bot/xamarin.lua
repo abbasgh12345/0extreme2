@@ -256,15 +256,9 @@ function create_config( )
     moderation = {data = 'data/moderation.json'},
     about_text = [[⚡️ Xamarin Anti Spam Bot v1.8
     
-  📢 Channel : @DarkTeam
-  👤 Admin : @AmirDark
+  📢 Channel : @extremeteam
+  👤 Admin : @unkownhacker
   
-  🙏 Special Thanks to :
-  
-        @PokerFace_Dev
-        @ShahabDark
-        @MR_Flat
-        @SinaSereen
         
 📝 Please send your feedback
 The command /feedback [text]
@@ -499,7 +493,7 @@ Checkout yeo.ir/Xamarin
 !addsudo
 
 💬 توضيحات ضد اسپم
-!xamarin
+!extreme
 
 💬 راهنمای ربات (همین متن)
 !help
