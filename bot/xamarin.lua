@@ -254,7 +254,7 @@ function create_config( )
     sudo_users = {179983320},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[⚡️ Xamarin Anti Spam Bot v1.8
+    about_text = [[extreme Anti Spam Bot v1.8
     
   📢 Channel : @extremeteam
   👤 Admin : @unkownhacker
